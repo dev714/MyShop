@@ -22,7 +22,7 @@ namespace MyShop.Core.Models
         public string Image { get; set; }
         /*radimo prazni konstruktor - svaki put kad kreiramo
         instancu Product, automatski se generira Id
-        Guid je generirani Id, ToString koristimo da bi ga mogo
+        Guid je generirani Id, ToString koristimo da bi ga mogao
         spremit u Id svojstvo klase Product*/
         public Product () {
             this.Id = Guid.NewGuid().ToString();
